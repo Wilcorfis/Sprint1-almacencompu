@@ -1,0 +1,147 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.site-header { 
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity {
+  float: left;
+}
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: .7em 0 .3em 0;
+  display: inline-block;
+}
+
+.site-identity img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.site-navigation {
+  float: right;
+}
+
+.site-navigation ul, li {
+  margin: 0; 
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+.site-navigation .nav > li > a:hover {
+  color: #66f;
+}
+
+.site-navigation .nav > li.active a {
+  color: #66f;
+}
+
+
+
+.logo{
+
+  float: left;
+}
+
+
+.logo h1 {
+  font-size: 1.5em;
+  margin: .7em 0 .3em 0;
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 55px;
+  max-height: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+#ventana1{
+    text-align: center;
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+
+}
+#ventana2{
+    text-align: center;
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    display: none;
+
+}
+#contenedor-tabla{
+  text-align: center;
+}
+#contenedor-tabla table{
+    border: solid gray 1px ;
+    margin: 0 auto;
+    width: auto;
+    background-color: gainsboro;
+
+}
+img{
+    max-width: 100%;
+    height: 200px;
+}
+.label1{
+    display: inline-block;
+    width: 180px;
+}
+
+
+main{
+
+    min-height: 100vh;
+
+
+    background: rgb(245, 241, 241);
+  
+
+    position: relative;
+    z-index: 1;
+  
+    font: 16px/1.4 system-ui, sans-serif;
+    padding: 2rem;
+}
+* {
+  box-sizing: border-box;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: #c9c9ce;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+/*hover calcular*/
+#btncalcular:hover {
+  background-color: yellowgreen;
+}

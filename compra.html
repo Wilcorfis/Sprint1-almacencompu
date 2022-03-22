@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compualmacen</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+
+        <div class="logo">
+            <a href="#"><img src="logo/logo.jpg" alt="Compualmacen" /></a>
+            <h1><a href="#">Compualmacen</a></h1>
+        </div>
+
+        <nav class="site-navigation">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Compra</a></li>
+
+
+
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section id="ventana1">
+            <h1>Almacen de computadores</h1>
+
+            <label for="cantidad">Cantidad de computadores comprados</label>
+            <input id="cantidad" name="cantidad" type="number" placeholder="$">
+            <button id="btncalcular"onclick="calcular(Number(document.querySelector('#cantidad').value))">Calcular </button>
+
+        </section>
+        <section id="ventana2">
+            <h3>Orden de compra</h3>
+            <div>
+
+                <label class="label1" for="valorcompra">Valor compra</label>
+                <input id="valorcompra" name="valorcompra" type="number">
+            </div>
+            <div>
+                <label class="label1 for=" valordesc">Valor descuento</label>
+                <input id="valordesc" name="valordesc" type="number" placeholder="ingrese el desscuento">
+            </div>
+            <div>
+                <label class="label1 for=" total">Total</label>
+                <input id="total" name="total" type="number">
+            </div>
+
+            <div id="mensaje">
+
+            </div>
+
+
+        </section>
+
+    </main>
+    <footer>
+        Derechos reservados copyright 2022
+
+    </footer>
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+</body>
+
+</html>
